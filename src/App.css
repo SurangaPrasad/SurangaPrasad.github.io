@@ -1,5 +1,5 @@
 .App {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
   min-height: 100vh;
 }
 
@@ -30,7 +30,7 @@ h1 {
 
 h2 {
   font-size: 2.5rem;
-  color: #2d3748;
+  color: #e2e8f0;
   text-align: center;
   margin-bottom: 3rem;
   position: relative;
@@ -44,34 +44,34 @@ h2::after {
   transform: translateX(-50%);
   width: 60px;
   height: 3px;
-  background: linear-gradient(90deg, #667eea, #764ba2);
+  background: linear-gradient(90deg, #666, #888);
   border-radius: 2px;
 }
 
 h3 {
   font-size: 1.5rem;
-  color: #2d3748;
+  color: #e2e8f0;
 }
 
 p {
-  color: #4a5568;
+  color: #a0aec0;
   line-height: 1.7;
   margin-bottom: 1rem;
 }
 
 /* Card styling */
 .card {
-  background: white;
+  background: #2d2d2d;
   border-radius: 12px;
   padding: 2rem;
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  border: 1px solid #404040;
 }
 
 .card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
 }
 
 /* Button styling */
@@ -88,23 +88,23 @@ p {
 }
 
 .btn-primary {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #666 0%, #888 100%);
   color: white;
 }
 
 .btn-primary:hover {
   transform: translateY(-2px);
-  box-shadow: 0 10px 20px rgba(102, 126, 234, 0.3);
+  box-shadow: 0 10px 20px rgba(102, 102, 102, 0.3);
 }
 
 .btn-secondary {
   background: transparent;
-  color: #667eea;
-  border: 2px solid #667eea;
+  color: #a0aec0;
+  border: 2px solid #666;
 }
 
 .btn-secondary:hover {
-  background: #667eea;
+  background: #666;
   color: white;
 }
 

@@ -1,5 +1,5 @@
 .hero {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
   min-height: 100vh;
   display: flex;
   align-items: center;
@@ -39,7 +39,7 @@
 }
 
 .highlight {
-  background: linear-gradient(45deg, #ffd700, #ffed4e);
+  background: linear-gradient(45deg, #888, #aaa);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -97,12 +97,12 @@
 
 .profile-card {
   position: relative;
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(45, 45, 45, 0.8);
   backdrop-filter: blur(20px);
   border-radius: 20px;
   padding: 2rem;
-  border: 1px solid rgba(255, 255, 255, 0.2);
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(64, 64, 64, 0.5);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
 }
 
 .profile-placeholder {
@@ -120,7 +120,7 @@
 .avatar {
   font-size: 4rem;
   font-weight: 700;
-  color: #667eea;
+  color: #e2e8f0;
 }
 
 .floating-icons {

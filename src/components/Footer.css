@@ -1,5 +1,5 @@
 .footer {
-  background: #2d3748;
+  background: #1a1a1a;
   color: white;
   padding: 3rem 0 1rem;
 }
@@ -12,14 +12,14 @@
 }
 
 .footer-section h3 {
-  color: #667eea;
+  color: #e2e8f0;
   font-size: 1.5rem;
   font-weight: 700;
   margin-bottom: 1rem;
 }
 
 .footer-section h4 {
-  color: white;
+  color: #a0aec0;
   font-size: 1.1rem;
   font-weight: 600;
   margin-bottom: 1rem;
@@ -48,7 +48,7 @@
 }
 
 .footer-section ul li a:hover {
-  color: #667eea;
+  color: #e2e8f0;
 }
 
 .footer-section ul li:not(:has(a)) {
@@ -67,7 +67,7 @@
   justify-content: center;
   width: 40px;
   height: 40px;
-  background: #4a5568;
+  background: #2d2d2d;
   border-radius: 50%;
   color: white;
   font-size: 1.2rem;
@@ -75,7 +75,7 @@
 }
 
 .social-links a:hover {
-  background: #667eea;
+  background: #666;
   transform: translateY(-2px);
 }
 
@@ -84,7 +84,7 @@
   justify-content: space-between;
   align-items: center;
   padding-top: 2rem;
-  border-top: 1px solid #4a5568;
+  border-top: 1px solid #404040;
   flex-wrap: wrap;
   gap: 1rem;
 }

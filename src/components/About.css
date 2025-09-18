@@ -1,5 +1,5 @@
 .about {
-  background: white;
+  background: #1a1a1a;
   padding: 80px 0;
 }
 
@@ -20,7 +20,7 @@
   font-size: 1.1rem;
   line-height: 1.7;
   margin-bottom: 1.5rem;
-  color: #4a5568;
+  color: #a0aec0;
 }
 
 .stats {
@@ -33,20 +33,20 @@
 .stat {
   text-align: center;
   padding: 1.5rem;
-  background: linear-gradient(135deg, #f7fafc 0%, #edf2f7 100%);
+  background: linear-gradient(135deg, #2d2d2d 0%, #404040 100%);
   border-radius: 12px;
-  border: 1px solid #e2e8f0;
+  border: 1px solid #555;
 }
 
 .stat h3 {
   font-size: 2.5rem;
   font-weight: 700;
-  color: #667eea;
+  color: #e2e8f0;
   margin-bottom: 0.5rem;
 }
 
 .stat p {
-  color: #4a5568;
+  color: #a0aec0;
   font-weight: 500;
   margin: 0;
 }
@@ -58,14 +58,14 @@
 }
 
 .skill-category {
-  background: #f7fafc;
+  background: #2d2d2d;
   padding: 2rem;
   border-radius: 12px;
-  border-left: 4px solid #667eea;
+  border-left: 4px solid #666;
 }
 
 .skill-category h3 {
-  color: #2d3748;
+  color: #e2e8f0;
   margin-bottom: 1rem;
   font-size: 1.2rem;
 }
@@ -78,7 +78,7 @@
 
 .skill-category li {
   padding: 0.5rem 0;
-  color: #4a5568;
+  color: #a0aec0;
   position: relative;
   padding-left: 1.5rem;
 }
@@ -87,7 +87,7 @@
   content: '▸';
   position: absolute;
   left: 0;
-  color: #667eea;
+  color: #888;
   font-weight: bold;
 }
 
