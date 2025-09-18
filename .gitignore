@@ -12,8 +12,15 @@
 /.next/
 /out/
 
-# production
+# production build directory (but allow root-level build files for GitHub Pages)
 /build
+
+# Allow GitHub Pages build files in root
+!/index.html
+!/static/
+!/asset-manifest.json
+!/manifest.json
+!/favicon.ico
 
 # misc
 .DS_Store
